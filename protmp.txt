@@ -1,0 +1,4 @@
+Promtp utilizado en index (Primera versión)
+Primera versión de una pagina web para una feria tecnologica de Antofagasta, El nombre del evento de la pagina será Feria Tecnologica Antofagasta, la descripción general será: Feria que se realizara en Antofagasta la cual juntara a diferentes empresas o instituciones para que se presenten sus innovaciones tecnologicas, buscando llegar a la mayor parte de personas.
+La cual contara con una estructura basica de contenido (lo cual que esta parte quiero que solo sea html)
+Una de las secciones destacadas sera de poder dar una conferencia en vivo, exhibiciones de productos.
