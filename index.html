@@ -8,21 +8,85 @@
 </head>
 <body>
     <header>
-        <h1>Feria Tecnologica Antofagasta</h1>
-        <p>Feria que se realizara en Antofagasta la cual juntara a diferentes empresas o instituciones para que se presenten sus innovaciones tecnologicas, buscando llegar a la mayor parte de personas.</p>
+        <div class="container header-inner">
+            <div class="brand">
+                <a href="#top">Feria Tecnologica Antofagasta</a>
+            </div>
+            <nav class="nav-links">
+                <a href="#conferencia">Conferencia</a>
+                <a href="#exhibiciones">Exhibiciones</a>
+                <a href="#galeria">Galería</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </div>
+
+        <div class="hero">
+            <div class="hero-copy">
+                <span class="hero-tag">Innovación, networking y tecnología</span>
+                <h1>Vive la Feria Tecnológica Antofagasta</h1>
+                <p>Un evento para empresas, instituciones y público general donde se mostrarán soluciones tecnológicas, conferencias en vivo y exhibiciones interactivas.</p>
+                <div class="hero-actions">
+                    <a href="#contacto" class="button primary">Participa como expositor</a>
+                    <a href="#galeria" class="button secondary">Ver la galería</a>
+                </div>
+            </div>
+            <div class="hero-decor">
+                <div class="float-card card-1"></div>
+                <div class="float-card card-2"></div>
+                <div class="float-card card-3"></div>
+                <div class="float-card card-4"></div>
+            </div>
+        </div>
     </header>
 
     <main>
         <section id="conferencia">
             <h2>Conferencia en Vivo</h2>
-            <p>Únete a nuestras conferencias en vivo donde expertos en tecnología compartirán sus conocimientos y las últimas innovaciones.</p>
-            <!-- Aquí se puede integrar el streaming en futuras versiones -->
+            <p>Únete a nuestras conferencias en vivo donde expertos en tecnología compartirán sus conocimientos y las últimas innovaciones en áreas como inteligencia artificial, ciberseguridad, energía y emprendimiento.</p>
+            <div class="info-cards">
+                <article class="info-card">
+                    <h3>Oradores destacados</h3>
+                    <p>Panel de expertos nacionales e internacionales que explicarán tendencias tecnológicas y casos prácticos.</p>
+                </article>
+                <article class="info-card">
+                    <h3>Formato híbrido</h3>
+                    <p>Asiste de manera presencial o sigue las presentaciones en línea para mayor comodidad.</p>
+                </article>
+                <article class="info-card">
+                    <h3>Sesiones interactivas</h3>
+                    <p>Preguntas en vivo, demos prácticas y análisis de proyectos reales.</p>
+                </article>
+            </div>
         </section>
 
         <section id="exhibiciones">
             <h2>Exhibiciones de Productos</h2>
-            <p>Descubre las innovaciones tecnológicas de diversas empresas e instituciones. Explora productos y soluciones que están transformando el futuro.</p>
-            <!-- Lista de exhibidores o productos -->
+            <p>Descubre las innovaciones tecnológicas de diversas empresas e instituciones. Explora productos y soluciones que están cambiando la forma en que vivimos y trabajamos.</p>
+            <div class="card-grid">
+                <article class="feature-card">
+                    <h3>Startups</h3>
+                    <p>Espacio para nuevas empresas que presentarán sus prototipos y soluciones disruptivas.</p>
+                </article>
+                <article class="feature-card">
+                    <h3>Instituciones</h3>
+                    <p>Centros educativos y de investigación mostrarán proyectos tecnológicos avanzados.</p>
+                </article>
+                <article class="feature-card">
+                    <h3>Empresas</h3>
+                    <p>Grandes empresas exhibirán productos y servicios que impulsan la transformación digital.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="galeria">
+            <h2>Galería de Imágenes</h2>
+            <p>Una muestra visual del ambiente, los expositores y las experiencias que vivirás en la feria.</p>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=900&q=80" alt="Conferencia tecnologica en escenario"></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=80" alt="Expositores mostrando productos tecnologicos"></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=900&q=80" alt="Taller interactivo con participantes"></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1497493292307-31c376b6e479?auto=format&fit=crop&w=900&q=80" alt="Networking y contacto entre asistentes"></div>
+            </div>
         </section>
 
         <section id="beneficios">
@@ -64,16 +128,53 @@
 
         <section id="contacto">
             <h2>Contacto e Inscripción</h2>
-            <p>Para más información o para inscribirte como participante o expositor:</p>
-            <p>Email: info@feriataantofagasta.cl</p>
-            <p>Teléfono: +56 55 123 4567</p>
-            <p>Dirección: Centro de Convenciones Antofagasta, Antofagasta, Chile</p>
-            <p><a href="#inscripcion">Inscríbete aquí</a></p>
+            <p>Si quieres participar como empresa, expositor o tienes alguna duda, completa el formulario o contacta al equipo organizador.</p>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <h3>Información de contacto</h3>
+                    <p>Email: <a href="mailto:info@feriataantofagasta.cl">info@feriataantofagasta.cl</a></p>
+                    <p>Teléfono: +56 55 123 4567</p>
+                    <p>Dirección: Centro de Convenciones Antofagasta, Antofagasta, Chile</p>
+                </div>
+                <form class="contact-form">
+                    <label for="empresa">Empresa / Institución</label>
+                    <input id="empresa" type="text" placeholder="Nombre de la empresa" />
+                    <label for="nombre">Nombre completo</label>
+                    <input id="nombre" type="text" placeholder="Tu nombre" />
+                    <label for="email">Email</label>
+                    <input id="email" type="email" placeholder="correo@ejemplo.com" />
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" rows="5" placeholder="¿En qué podemos ayudarte?"></textarea>
+                    <button type="submit" class="button primary">Enviar solicitud</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="impacto">
+            <h2>Impacto y Oportunidades</h2>
+            <p>La feria genera conexiones reales entre empresas, startups, instituciones y público. Es un punto de encuentro para impulsar proyectos tecnológicos con alcance regional y nacional.</p>
+            <div class="impact-statements">
+                <div class="impact-item">
+                    <strong>+50</strong>
+                    <span>Expositores esperados</span>
+                </div>
+                <div class="impact-item">
+                    <strong>+3</strong>
+                    <span>Salas de conferencias</span>
+                </div>
+                <div class="impact-item">
+                    <strong>+1000</strong>
+                    <span>Visitantes potenciales</span>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 Feria Tecnologica Antofagasta. Todos los derechos reservados.</p>
+        <div class="footer-inner">
+            <p>&copy; 2026 Feria Tecnologica Antofagasta. Todos los derechos reservados.</p>
+            <p>Diseñado para inspirar a la comunidad tecnológica de Antofagasta.</p>
+        </div>
     </footer>
 </body>
 </html></content>
