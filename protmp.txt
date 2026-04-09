@@ -2,3 +2,13 @@ Promtp utilizado en index (Primera versión)
 Primera versión de una pagina web para una feria tecnologica de Antofagasta, El nombre del evento de la pagina será Feria Tecnologica Antofagasta, la descripción general será: Feria que se realizara en Antofagasta la cual juntara a diferentes empresas o instituciones para que se presenten sus innovaciones tecnologicas, buscando llegar a la mayor parte de personas.
 La cual contara con una estructura basica de contenido (lo cual que esta parte quiero que solo sea html)
 Una de las secciones destacadas sera de poder dar una conferencia en vivo, exhibiciones de productos.
+
+2. Mejora visual
+Ahora a la anterior pagina creada, neceisto mejorar el diseño visual 
+que sea más agradable a un entorno de una feria tecnologica, aplicar un
+estilo css más formal y apto para una feria tecnologica,
+tener una jerarquia visual de todos los contenidos con orden, 
+tener un diseño más atractivo y que sea ordenado visualmente sea suave
+y agradable a la gente que va dirigida 
+(Solo la parte de css sin agregar html
+ que solo quiero darle una mejora de diseño a la pagina)
